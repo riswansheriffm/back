@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.35" />
+    <PackageReference Include="NetCore.AutoRegisterDi" Version="2.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BackPack.Dependency.Library\BackPack.Dependency.Library.csproj" />
+    <ProjectReference Include="..\BackPack.MessageContract.Library\BackPack.MessageContract.Library.csproj" />
+  </ItemGroup>
+
+</Project>
