@@ -1,0 +1,6 @@
+{
+  "CorsSettings": {
+    "Php": "http://localhost:2803",
+    "React": "http://localhost:8016"
+  }
+}

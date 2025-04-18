@@ -1,0 +1,8 @@
+{
+  "CommonSettings": {
+    "ApplicationBaseUrl": "http://localhost:6151/",
+    "TenantUrl": "https://localhost:44300/Tenant/Api/KnomadixService/V1/ServiceStatus",
+    "SerilogSchemaName": "serilogs",
+    "SerilogTableName": "knomadix_transaction_error_logs"
+  }
+}
