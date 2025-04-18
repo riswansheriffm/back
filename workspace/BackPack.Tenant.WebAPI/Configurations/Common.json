@@ -1,0 +1,7 @@
+{
+  "CommonSettings": {
+    "TransactionUrl": "https://localhost:44300/Api/KnomadixService/V1/ServiceStatus",
+    "SerilogSchemaName": "serilogs",
+    "SerilogTableName": "knomadix_tenant_error_logs"
+  }
+}

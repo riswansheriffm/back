@@ -1,0 +1,7 @@
+{
+  "MessageBrokerSettings": {
+    "Host": "rabbitmq://localhost/",
+    "Username": "JkFRiunJwvJfolRDVbtPym4ohoNxZVUWFb7PlQQlcj/T2DPkDc92VEgSruwkECiD",
+    "Password": "79ZI7YhxtAJrvZ1uueGw4hlAFywT1jX9tXRqxjW0eIKx7FUKpGgUt8QffhAZk5ya"
+  }
+}
