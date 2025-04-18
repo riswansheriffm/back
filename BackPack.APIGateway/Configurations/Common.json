@@ -1,0 +1,6 @@
+{
+  "CommonSettings": {
+    "SerilogSchemaName": "serilogs",
+    "SerilogTableName": "knomadix_gateway_error_logs"
+  }
+}

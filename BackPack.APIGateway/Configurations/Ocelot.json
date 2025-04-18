@@ -1,0 +1,2193 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/CreateTenant",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7025
+        }
+      ],
+      "UpstreamPathTemplate": "/Tenant/Api/KnomadixService/V1/CreateTenant",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "TenantWebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/UpdateTenant",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7025
+        }
+      ],
+      "UpstreamPathTemplate": "/Tenant/Api/KnomadixService/V1/UpdateTenant",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "TenantWebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/DeleteTenant",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7025
+        }
+      ],
+      "UpstreamPathTemplate": "/Tenant/Api/KnomadixService/V1/DeleteTenant",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "TenantWebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/SuperAdminLogin",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7025
+        }
+      ],
+      "UpstreamPathTemplate": "/Tenant/Api/KnomadixService/V1/SuperAdminLogin",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "TenantWebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/RefreshToken",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7025
+        }
+      ],
+      "UpstreamPathTemplate": "/Tenant/Api/KnomadixService/V1/RefreshToken",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "TenantWebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/CreateCourseCapsuleLicense",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7025
+        }
+      ],
+      "UpstreamPathTemplate": "/Tenant/Api/KnomadixService/V1/CreateCourseCapsuleLicense",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "TenantWebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/ServiceStatus",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7025
+        }
+      ],
+      "UpstreamPathTemplate": "/Tenant/Api/KnomadixService/V1/ServiceStatus",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "TenantWebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllActiveTenants",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7025
+        }
+      ],
+      "UpstreamPathTemplate": "/Tenant/Api/KnomadixService/V1/GetAllActiveTenants",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "TenantWebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllPublicActiveTenants",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7025
+        }
+      ],
+      "UpstreamPathTemplate": "/Tenant/Api/KnomadixService/V1/GetAllPublicActiveTenants",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "TenantWebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllTenants",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7025
+        }
+      ],
+      "UpstreamPathTemplate": "/Tenant/Api/KnomadixService/V1/GetAllTenants",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "TenantWebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetTenant",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7025
+        }
+      ],
+      "UpstreamPathTemplate": "/Tenant/Api/KnomadixService/V1/GetTenant",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "TenantWebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetSuperAdminDashboard",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7025
+        }
+      ],
+      "UpstreamPathTemplate": "/Tenant/Api/KnomadixService/V1/GetSuperAdminDashboard",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "TenantWebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllPublicCourseCapsuleByDomainAndSubject",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7025
+        }
+      ],
+      "UpstreamPathTemplate": "/Tenant/Api/KnomadixService/V1/GetAllPublicCourseCapsuleByDomainAndSubject",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "TenantWebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllSubjectsByDomain",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7025
+        }
+      ],
+      "UpstreamPathTemplate": "/Tenant/Api/KnomadixService/V1/GetAllSubjectsByDomain",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "TenantWebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetCourseCapsuleByCapsule",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7025
+        }
+      ],
+      "UpstreamPathTemplate": "/Tenant/Api/KnomadixService/V1/GetCourseCapsuleByCapsule",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "TenantWebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllCoursesByDomain",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7025
+        }
+      ],
+      "UpstreamPathTemplate": "/Tenant/Api/KnomadixService/V1/GetAllCoursesByDomain",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "TenantWebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllTeachersByClass",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7025
+        }
+      ],
+      "UpstreamPathTemplate": "/Tenant/Api/KnomadixService/V1/GetAllTeachersByClass",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "TenantWebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllLPCourseLicenses",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7025
+        }
+      ],
+      "UpstreamPathTemplate": "/Tenant/Api/KnomadixService/V1/GetAllLPCourseLicenses",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "TenantWebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/ActivateUserAccount",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/ActivateUserAccount",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/BulkUploadCreateUser",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/BulkUploadCreateUser",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/CreateUser",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/CreateUser",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/DeleteUser",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/DeleteUser",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/RefreshToken",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/RefreshToken",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/ResetPassword",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/ResetPassword",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/StudentLogin",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/StudentLogin",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/TeacherLogin",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/TeacherLogin",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/UpdateStudent",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/UpdateStudent",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/UpdateUser",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/UpdateUser",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/BulkMapTeachersToCourse",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/BulkMapTeachersToCourse",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/BulkUploadCourse",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/BulkUploadCourse",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/CreateCourse",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/CreateCourse",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/CreateCourseCapsule",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/CreateCourseCapsule",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/CreateCourseCapsuleLicense",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/CreateCourseCapsuleLicense",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/CreateGroup",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/CreateGroup",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/CreateSubject",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/CreateSubject",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/DeleteCourse",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/DeleteCourse",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/DeleteCourseCapsule",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/DeleteCourseCapsule",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/DeleteGroup",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/DeleteGroup",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/DeleteSubject",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/DeleteSubject",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/EditCourseCapsule",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/EditCourseCapsule",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/EnableCourseCapsule",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/EnableCourseCapsule",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/PublishCourseCapsule",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/PublishCourseCapsule",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/SaveCourseCapsule",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/SaveCourseCapsule",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/SaveCourseCapsuleFolder",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/SaveCourseCapsuleFolder",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/UpdateCourse",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/UpdateCourse",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/UpdateCourseCapsuleActivityReorder",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/UpdateCourseCapsuleActivityReorder",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/UpdateCourseCapsuleFolderReorder",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/UpdateCourseCapsuleFolderReorder",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/UpdateCourseCapsulePodReorder",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/UpdateCourseCapsulePodReorder",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/UpdateGroup",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/UpdateGroup",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/UpdateSubject",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/UpdateSubject",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/CopyLessonUnit",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/CopyLessonUnit",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/CreateLesson",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/CreateLesson",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/CreateLessonUnit",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/CreateLessonUnit",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/CreatePreviewLessonPodActivities",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/CreatePreviewLessonPodActivities",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/CreateStudioSlideTemplate",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/CreateStudioSlideTemplate",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/DeleteLesson",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/DeleteLesson",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/DeleteLessonUnit",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/DeleteLessonUnit",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/DeleteStudioSlideTemplate",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/DeleteStudioSlideTemplate",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/MapContentToLesson",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/MapContentToLesson",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/UnlockOfflineLessonUnitByCourseID",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/UnlockOfflineLessonUnitByCourseID",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/UnlockOfflineLessonUnitByLessonUnitDistID",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/UnlockOfflineLessonUnitByLessonUnitDistID",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/UnlockOfflineLessonUnitByOfflineLessonUnitDistID",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/UnlockOfflineLessonUnitByOfflineLessonUnitDistID",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/UpdateLesson",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/UpdateLesson",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/UpdateLessonUnitProperties",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/UpdateLessonUnitProperties",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/CreateChapter",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/CreateChapter",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/DeleteChapter",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/DeleteChapter",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/UpdateChapter",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/UpdateChapter",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/CreateGrade",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/CreateGrade",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/DeleteGrade",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/DeleteGrade",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/UpdateGrade",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/UpdateGrade",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/CreateSchool",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/CreateSchool",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/DeleteSchool",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/DeleteSchool",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/SchoolBulkUpload",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/SchoolBulkUpload",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/SchoolUpdate",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/SchoolUpdate",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/DistributeLessonUnitToStudents",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/DistributeLessonUnitToStudents",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/RecallLessonUnitDistribution",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/RecallLessonUnitDistribution",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/ReDistributeLessonUnitToStudents",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/ReDistributeLessonUnitToStudents",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/SaveBackpackActivityForStudent",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/SaveBackpackActivityForStudent",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/SaveTeacherFeedbackOnActivity",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/SaveTeacherFeedbackOnActivity",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/ClassLinkData",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/ClassLinkData",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/CreateDocument",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/CreateDocument",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/CreateSuperUser",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/CreateSuperUser",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/DeleteStudent",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/DeleteStudent",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/ServiceStatus",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/ServiceStatus",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllDomainUser",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetAllDomainUser",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllTeachersByClass",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetAllTeachersByClass",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllUser",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetAllUser",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetBPStudentDashboard",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetBPStudentDashboard",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetBPUpcomingAssignments",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetBPUpcomingAssignments",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetCRTeacherDashboard",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetCRTeacherDashboard",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetCRUpcomingAssignments",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetCRUpcomingAssignments",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetCurriculumAdminDashBoard",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetCurriculumAdminDashBoard",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetDistrictAdminDashBoard",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetDistrictAdminDashBoard",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetSchoolAdminDashboard",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetSchoolAdminDashboard",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetUser",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetUser",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllCourseCapsuleFoldersForACourseCapsule",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetAllCourseCapsuleFoldersForACourseCapsule",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllCourseCapsules",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetAllCourseCapsules",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllCourseCapsulesForASubject",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetAllCourseCapsulesForASubject",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllCourses",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetAllCourses",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllCoursesByDomain",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetAllCoursesByDomain",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllCoursesForASubject",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetAllCoursesForASubject",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllGroups",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetAllGroups",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllLessonsForASubject",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetAllLessonsForASubject",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllLPCourseLicenses",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetAllLPCourseLicenses",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllLPStudentLicensesByCourseCapsule",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetAllLPStudentLicensesByCourseCapsule",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllPublicCourseCapsuleByDomainAndSubject",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetAllPublicCourseCapsuleByDomainAndSubject",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllStudents",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetAllStudents",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllSubject",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetAllSubject",
+      "UpstreamHttpMethod": [ "Get" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 120
+      },
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllSubjectsByDomain",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetAllSubjectsByDomain",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllSubjectsByTeacher",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetAllSubjectsByTeacher",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetCourse",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetCourse",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetCourseCapsuleForRecorder",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetCourseCapsuleForRecorder",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetGroup",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetGroup",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetStudent",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetStudent",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetStudentListForACourse",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetStudentListForACourse",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetSubject",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetSubject",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllActivitiesByLessonUnit",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetAllActivitiesByLessonUnit",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllDistributedLessonodsByTeacherByLessonPod",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetAllDistributedLessonodsByTeacherByLessonPod",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllMyLessonPodsByLesson",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetAllMyLessonPodsByLesson",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllMyLessonUnitByLesson",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetAllMyLessonUnitByLesson",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllStudioSlideTemplates",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetAllStudioSlideTemplates",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetBPCompletedLessonUnitsByLesson",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetBPCompletedLessonUnitsByLesson",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetBPLessonFoldersBySubject",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetBPLessonFoldersBySubject",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetBPSyncCourseDownload",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetBPSyncCourseDownload",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetBPSyncCourseLessonUnitDownload",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetBPSyncCourseLessonUnitDownload",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetBPSyncLessonUnitDownload",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetBPSyncLessonUnitDownload",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetCRLessonUnitDetails",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetCRLessonUnitDetails",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetDistributedLessonUnit",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetDistributedLessonUnit",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetDistributeLessonUnit",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetDistributeLessonUnit",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetLesson",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetLesson",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetLessonUnit",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetLessonUnit",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetLessonUnitDetailsForAStudent",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetLessonUnitDetailsForAStudent",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetLessonUnitSummaryForAStudent",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetLessonUnitSummaryForAStudent",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetLPStudioPreviewActivitiesByLessonPod",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetLPStudioPreviewActivitiesByLessonPod",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetLPStudioPreviewActivityBySlide",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetLPStudioPreviewActivityBySlide",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetPendingLessonUnitsForAStudent",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetPendingLessonUnitsForAStudent",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllChaptersBySubject",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetAllChaptersBySubject",
+      "UpstreamHttpMethod": [ "Get" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 120
+      },
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetBPAllChaptersBySubject",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetBPAllChaptersBySubject",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetChapter",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetChapter",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllGrade",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetAllGrade",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetGrade",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetGrade",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllSchool",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetAllSchool",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetSchool",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetSchool",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetBackpackActivityForStudent",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetBackpackActivityForStudent",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllDocument",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetAllDocument",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllChaptersBySubjectReport",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetAllChaptersBySubjectReport",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetClassLevelCourseSummaryAnalyticsReport",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetClassLevelCourseSummaryAnalyticsReport",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetCourseSummaryAnalyticsReport",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetCourseSummaryAnalyticsReport",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetCRChapterSummaryTagReport",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetCRChapterSummaryTagReport",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetCRClassSummaryTagReport",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetCRClassSummaryTagReport",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetCRDistLessonPodTierStudentActivityReport",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetCRDistLessonPodTierStudentActivityReport",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetCRDistLessonPodTierSummaryReport",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetCRDistLessonPodTierSummaryReport",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetCRDistributedLessonUnitsByLessonReport",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetCRDistributedLessonUnitsByLessonReport",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetCRLessonFoldersBySubjectReport",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetCRLessonFoldersBySubjectReport",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetCRLessonFolderSummaryTagReport",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetCRLessonFolderSummaryTagReport",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetCRLessonPodActivityDetailReport",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetCRLessonPodActivityDetailReport",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetCRLessonPodActivityReport",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetCRLessonPodActivityReport",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetCRLessonPodSummaryReport",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetCRLessonPodSummaryReport",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetCRStudentList",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetCRStudentList",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetCRStudentWork",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetCRStudentWork",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetCRSubjectSummaryTagReport",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetCRSubjectSummaryTagReport",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetLessonPodActivityAnalyticsReport",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetLessonPodActivityAnalyticsReport",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetLessonPodSummaryAnalyticsReport",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetLessonPodSummaryAnalyticsReport",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetSuperCA",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetSuperCA",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetLessonUnitsForAStudent",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetLessonUnitsForAStudent",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    },
+    {
+      "DownstreamPathTemplate": "/Api/KnomadixService/V1/GetAllLessonPodsBySubject",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7169
+        }
+      ],
+      "UpstreamPathTemplate": "/Api/KnomadixService/V1/GetAllLessonPodsBySubject",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "WebAPI"
+    }
+  ],
+  "SwaggerEndPoints": [
+    {
+      "Key": "WebAPI",
+      "Config": [
+        {
+          "Name": "Knomadix Transactional WebAPI Services",
+          "Version": "v1",
+          "Url": "https://localhost:7169/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "TenantWebAPI",
+      "Config": [
+        {
+          "Name": "Knomadix Tenant WebAPI Services",
+          "Version": "v1",
+          "Url": "https://localhost:7025/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:44300/swagger"
+  }
+}
